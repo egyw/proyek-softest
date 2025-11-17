@@ -1,0 +1,12 @@
+[PASS] Open side menu overlay
+[PASS] Close side menu overlay
+[PASS] Open side menu overlay again for further tests
+[PASS] Click Home in side menu overlay
+[PASS] Open side menu overlay again for further tests
+[PASS] Click Projects in side menu overlay
+[PASS] Click Work Packages in side menu overlay
+[PASS] Click Gannt Charts in side menu overlay
+[PASS] Click Team Planners in side menu overlay
+[PASS] Click Boards in side menu overlay
+[PASS] Click Meetings in side menu overlay
+[PASS] Click News in si

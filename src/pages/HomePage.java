@@ -50,47 +50,63 @@ public class HomePage {
         driver.findElement(projectsButtonInSideMenuOverlay).click();
         Delay.waitFor(1500);
         driver.navigate().back();
+        Delay.waitFor(1500);
+
     }
 
     public void clickWorkPackagesInSideMenuOverlay(){
         driver.findElement(workPackagesButtonInSideMenuOverlay).click();
         Delay.waitFor(1500);
         driver.navigate().back();
+        Delay.waitFor(1500);
+
     }
 
     public void clickGanntChartsInSideMenuOverlay(){
         driver.findElement(ganntChartsButtonInSideMenuOverlay).click();
         Delay.waitFor(1500);
         driver.navigate().back();
+        Delay.waitFor(1500);
+
     }
 
     public void clickTeamPlannersInSideMenuOverlay(){
         driver.findElement(teamPlannersButtonInSideMenuOverlay).click();
         Delay.waitFor(1500);
         driver.navigate().back();
+        Delay.waitFor(1500);
+
     }
 
     public void clickBoardsInSideMenuOverlay(){
         driver.findElement(boardsButtonInSideMenuOverlay).click();
         Delay.waitFor(1500);
         driver.navigate().back();
+        Delay.waitFor(1500);
+
     }
 
     public void clickMeetingsInSideMenuOverlay(){
         driver.findElement(meetingsButtonInSideMenuOverlay).click();
         Delay.waitFor(1500);
         driver.navigate().back();
+        Delay.waitFor(1500);
+
     }
 
     public void clickNewsInSideMenuOverlay(){
         driver.findElement(newsButtonInSideMenuOverlay).click();
         Delay.waitFor(1500);
         driver.navigate().back();
+        Delay.waitFor(1500);
+
     }
 
     public void clickTimeAndCostsInSideMenuOverlay(){
         driver.findElement(timeAndCostsButtonInSideMenuOverlay).click();
         Delay.waitFor(1500);
         driver.navigate().back();
+        Delay.waitFor(1500);
+
     }
 }
