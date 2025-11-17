@@ -11,7 +11,9 @@ public class HomePage {
     private WebDriver driver;
     private WebDriverWait wait;
     
-    // element-element di halaman HomePage
+    // ===========================================
+    // ======= ELEMENT" DI SIDEBAR OVERLAY =======
+    // ===========================================
     private By openSideMenuOverlayButton = By.cssSelector(".Button.Button--iconOnly.Button--invisible.Button--medium.op-app-header--primer-button");
     private By closeSideMenuOverlayButton = By.cssSelector(".close-button.Overlay-closeButton");
     private By homeButtonInSideMenuOverlay = By.xpath("//a[contains(@class,'ActionListContent--visual16') and @href='/']");
@@ -24,13 +26,23 @@ public class HomePage {
     private By newsButtonInSideMenuOverlay = By.xpath("//a[contains(@class,'ActionListContent--visual16') and @href='/news']");
     private By timeAndCostsButtonInSideMenuOverlay = By.xpath("//a[contains(@class,'ActionListContent--visual16') and @href='/cost_reports']");
 
+    // ===================================
+    // ======= ELEMENT" DI SIDEBAR =======
+    // ===================================
+    private By collapseSidebarButton = By.cssSelector(".Button.Button--iconOnly.Button--invisible.Button--medium");
+    private By uncollapseSidebarButton = By.cssSelector("Button.Button--iconOnly.Button--invisible.Button--small");
+
+
+
     // constructor
     public HomePage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
     }                             
 
-    // function
+    // ========================================
+    // ======= FUNCTION SIDEBAR OVERLAY =======
+    // ========================================
     public void openSideMenuOverlay() {
         driver.findElement(openSideMenuOverlayButton).click();
         Delay.waitFor(1500);
@@ -108,5 +120,18 @@ public class HomePage {
         driver.navigate().back();
         Delay.waitFor(1500);
 
+    }
+
+    // ================================
+    // ======= FUNCTION SIDEBAR =======
+    // ================================
+    public void collapseSidebar(){
+        driver.findElement(collapseSidebarButton).click();
+        Delay.waitFor(1500);
+    }
+
+    public void uncollapseSidebar(){
+        driver.findElement(uncollapseSidebarButton).click();
+        Delay.waitFor(1500);
     }
 }

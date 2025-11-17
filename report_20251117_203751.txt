@@ -1,0 +1,41 @@
+[PASS] Open side menu overlay
+[PASS] Close side menu overlay
+[PASS] Open side menu overlay again for further tests
+[PASS] Click Home in side menu overlay
+[PASS] Open side menu overlay again for further tests
+[PASS] Click Projects in side menu overlay
+[PASS] Click Work Packages in side menu overlay
+[PASS] Click Gannt Charts in side menu overlay
+[PASS] Click Team Planners in side menu overlay
+[PASS] Click Boards in side menu overlay
+[FAIL] Click Meetings in side menu overlay - no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'ActionListContent--visual16') and @href='/meetings']"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64473321309fc1ffb36fbeae578f3889, findElement {using=xpath, value=//a[contains(@class,'ActionListContent--visual16') and @href='/meetings']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\ebewa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51817}, goog:processID: 26512, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51817/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64473321309fc1ffb36fbeae578f3889
+[FAIL] Click News in side menu overlay - invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=142.0.7444.163)
+Build info: version: '4.38.0', revision: '6b412e825c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64473321309fc1ffb36fbeae578f3889, findElement {using=xpath, value=//a[contains(@class,'ActionListContent--visual16') and @href='/news']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\ebewa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51817}, goog:processID: 26512, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51817/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64473321309fc1ffb36fbeae578f3889
+[FAIL] Click Time and Costs in side menu overlay - invalid session id
+Build info: version: '4.38.0', revision: '6b412e825c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64473321309fc1ffb36fbeae578f3889, findElement {using=xpath, value=//a[contains(@class,'ActionListContent--visual16') and @href='/cost_reports']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\ebewa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51817}, goog:processID: 26512, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51817/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64473321309fc1ffb36fbeae578f3889
+[FAIL] Close side menu overlay after all tests - invalid session id
+Build info: version: '4.38.0', revision: '6b412e825c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64473321309fc1ffb36fbeae578f3889, findElement {using=css selector, value=.close-button.Overlay-closeButton}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVer

@@ -17,9 +17,9 @@ public class HomeTest extends BaseTest{
 
         HomePage homePage = new HomePage(driver);
 
-        // ============================================
-        // ========== OPEN AND CLOSE SIDEBAR ==========
-        // ============================================
+        // ====================================================
+        // ========== OPEN AND CLOSE SIDEBAR OVERLAY ==========
+        // ====================================================
         TestLogger.test(() -> homePage.openSideMenuOverlay(), "Open side menu overlay");
         TestLogger.test(() -> homePage.closeSideMenuOverlay(), "Close side menu overlay");
         System.out.println("-----------------------------------");
@@ -40,7 +40,13 @@ public class HomeTest extends BaseTest{
         TestLogger.test(() -> homePage.clickNewsInSideMenuOverlay(), "Click News in side menu overlay");
         TestLogger.test(() -> homePage.clickTimeAndCostsInSideMenuOverlay(), "Click Time and Costs in side menu overlay");
         TestLogger.test(() -> homePage.closeSideMenuOverlay(), "Close side menu overlay after all tests");
+        System.out.println("-----------------------------------");
 
+        // 
+        // =======  
+        // =============================
+        TestLogger.test(() -> homePage.collapseSidebar(), "Collapse sidebar");
+        TestLogger.test(() -> homePage.uncollapseSidebar(), "Uncollapse sidebar");
 
         // ===============================================
         // ======= timeout biar ga langsung close ========
